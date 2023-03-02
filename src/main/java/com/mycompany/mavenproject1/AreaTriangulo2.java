@@ -16,22 +16,27 @@ public class AreaTriangulo2 {
     public static void main(String[] args) {
         Scanner Ler = new Scanner(System.in);
          
-        float alturaCentimetros;
-        float larguraCentimetros;
+        double alturaCentimetros;
+        double larguraCentimetros;
       
         
-        System.out.println("Qual é altura em centrimetros");
+        System.out.println("Qual é Altura em centrimetros");
         alturaCentimetros = Ler.nextFloat();
         
-        System.out.println("Qual é comprimento em centrimetros");
+        System.out.println("Qual é Largura em centrimetros");
         larguraCentimetros = Ler.nextFloat();
         
-        float areaEmCentimetros = (alturaCentimetros*larguraCentimetros)/2;
+        double areaEmCentimetros = ((alturaCentimetros*larguraCentimetros)/2);
        
         
-        float areaConvertidaEmMetros = areaEmCentimetros * 100;
+        double areaConvertidaEmMetros = areaEmCentimetros / 100;
         
-        System.out.println("a area do triangulo é de : " + areaConvertidaEmMetros);
+        System.out.println("a area do triangulo é de : " + areaEmCentimetros + " cm ");
+        
+        System.out.println("a area do triangulo é de : " + areaConvertidaEmMetros + " metros ");
          
+        
+        
+        
     }
 }
