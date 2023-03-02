@@ -38,6 +38,9 @@ public class Mavenproject1 {
         
         System.out.println("a area do triangulo é de : " + resultado);
         
+        
+        
+        
                 
     }
 }
