@@ -17,9 +17,9 @@ public class Calculadora {
      */
     public static void main(String[] args) {
 
-        double raio;
-        double areaCirculo;
-        double PI;
+        float raio;
+        float areaCirculo;
+        float PI;
 
         Scanner Ler = new Scanner(System.in);
         int op = -1;
@@ -47,11 +47,14 @@ public class Calculadora {
 
                 case 2:
                     System.out.println("Informe o raio ");
-                    raio = Ler.nextDouble();
+                    raio = Ler.nextFloat();
 
                     areaCirculo =  (raio * raio) * 22 / 7 ;
-
-                    System.out.println("O resultado é de : " + areaCirculo);
+                        
+                    
+                    // FORMATAÇÃO DUAS CASAS DECIMAIS %.3f ,
+                    System.out.printf("O resultado é de :" + "%.3f", areaCirculo);
+                    System.out.println(" O resultado é de : " + (areaCirculo/100) + " metros");
                     break;
 
                 case 3:
