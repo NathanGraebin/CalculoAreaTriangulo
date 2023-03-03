@@ -49,7 +49,7 @@ public class Calculadora {
                     System.out.println("Informe o raio ");
                     raio = Ler.nextDouble();
 
-                    areaCirculo = 22 / 7 * (raio * raio);
+                    areaCirculo =  (raio * raio) * 22 / 7 ;
 
                     System.out.println("O resultado é de : " + areaCirculo);
                     break;
