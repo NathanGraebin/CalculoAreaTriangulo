@@ -52,9 +52,14 @@ public class Calculadora {
                     areaCirculo =  (raio * raio) * 22 / 7 ;
                         
                     
-                    // FORMATAÇÃO DUAS CASAS DECIMAIS %.3f ,
-                    System.out.printf("O resultado é de :" + "%.3f", areaCirculo);
-                    System.out.println(" O resultado é de : " + (areaCirculo/100) + " metros");
+                    // FORMATAÇÃO
+                    System.out.printf("O resultado é de :" + "%.2f", areaCirculo);
+                    System.out.println("");
+                    System.out.printf("O resultado é de :" + "%,f", areaCirculo);
+                    System.out.println("");
+                    System.out.printf("O resultado é de :" + "%.02f", areaCirculo);
+                    System.out.println("");
+                    System.out.println("O resultado é de : " + (areaCirculo/100) + " metros");
                     break;
 
                 case 3:
