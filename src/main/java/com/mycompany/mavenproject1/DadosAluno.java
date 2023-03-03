@@ -36,14 +36,13 @@ public class DadosAluno {
             case 'f':
                 System.out.println("Você é do sexo Feminino");
                 break;
-            
             case 'g':
                 System.out.println("GATO");
                 break;
             case 'h':
                 System.out.println("HOHOHO");
             default:
-                System.out.println("COCO");
+                System.out.println("Você é um ET");
                 break;
         }
     }
