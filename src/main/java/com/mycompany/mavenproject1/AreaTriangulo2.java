@@ -5,6 +5,7 @@
 package com.mycompany.mavenproject1;
 
 import java.util.Scanner;
+import java.util.Calendar;
 
 /**
  *
@@ -36,9 +37,9 @@ public class AreaTriangulo2 {
         System.out.println("CONVERTIDO PARA INT " + numeroConveridoParaInt);
 
         if (areaEmCentimetros > 10.0) {
-            System.out.println("A area é MAIOR que 10");
+            System.out.println("A area é MAIOR que 10, hello world");
         } else {
-            System.out.println("A area é MENOR que 10");
+            System.out.println("A area é MENOR que 10 ...");
         }
 
     }
