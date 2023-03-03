@@ -33,9 +33,11 @@ public class AreaTriangulo2 {
 
         System.out.println("a area do triangulo é de : " + areaConvertidaEmMetros + " metros ");
 
+        //Converter para INT
         int numeroConveridoParaInt = (int) areaEmCentimetros;
         System.out.println("CONVERTIDO PARA INT " + numeroConveridoParaInt);
-
+        
+        //Validação solicitada
         if (areaEmCentimetros > 10.0) {
             System.out.println("A area é MAIOR que 10, hello world");
         } else {
